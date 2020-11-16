@@ -10,10 +10,9 @@ package assignment1;
  * @author Tony
  */
 public class Wall {
-    class wall{
        double width;
        double height;
-       wall(double width, double height){
+ Wall(double width, double height){
            if (width<0){
             width = 0;
            }else{
@@ -22,7 +21,7 @@ public class Wall {
             height = 0;
            }else{
            }
-       }
+ }
        double getWidth(){
            return width;
        }
@@ -32,9 +31,8 @@ public class Wall {
        void setWidth(double value){
            if(width==0){
            width =0;
-           }else{
-           width=value;
            }
+           width=value;
        }
        void setHeight(double value){
            if(height==0){
@@ -46,7 +44,7 @@ public class Wall {
        double getArea(){
         return width*height;
        }
-    }
     
     
+       
 }
